@@ -1,0 +1,105 @@
+body {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+section {
+   min-height: 100vh;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+div {
+   box-sizing: border-box;
+   padding: 10px;
+   position: relative;
+   margin: 1%;
+   flex: 1 0 calc(23% - 2%);
+}
+
+div:nth-of-type(5) {
+   flex: 1 0 calc(100% - 2%);
+}
+
+span {
+   background-color: rgba(255, 255, 255, .5);
+   border-radius: 50%;
+   display: block;
+   font-size: 48px;
+   height: 3em;
+   width: 3em;
+   line-height: 3em;
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+/* Media Query para 1024px */
+@media (max-width: 1024px) {
+   div {
+       flex: 1 0 calc(48% - 2%); 
+   }
+
+   div:nth-of-type(5) {
+       flex: 1 0 calc(100% - 2%); 
+   }
+}
+
+ 
+ /* https://www.materialpalette.com/green/lime */
+ /*
+ div:nth-of-type(5n+2) {
+    background-color: #388E3C;
+ }
+ 
+ div:nth-of-type(5n+3) {
+    background-color: #C8E6C9;
+ }
+ 
+ div:nth-of-type(5n+4) {
+    background-color: #4CAF50;
+ }
+ 
+ div:nth-of-type(5n) {
+    background-color: #212121;
+ }
+ 
+ div:nth-of-type(5n+1) {
+    background-color: #CDDC39;
+ }
+ */
+ 
+ /*https://color.adobe.com/es/create/image*/
+ div:nth-of-type(5n+2) {
+    background-color:  #0A89A6;
+ }
+ 
+ div:nth-of-type(5n+3) {
+    background-color: #C8E6C9;
+ }
+ 
+ div:nth-of-type(5n+4) {
+    background-color: #278C7A;
+ }
+ 
+ div:nth-of-type(5n) {
+    background-color: #212121;
+ }
+ 
+ div:nth-of-type(5n+1) {
+    background-color:  #93A603;
+ }
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+  
